@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="mesSyles.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSkt73K6A0GsAn1p6YHCp5Y0ynQ+5boGA5yYk5y56nQ" crossorigin="anonymous">
+       <title>تسجيل في المواقع </title>
+    <style>
+    form {
+      background: url('imaggg3.gif');
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 820px;
+      height: 460px;
+      border: 1px solid #ccc;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+<form>
+	<fieldset>
+	<legend> لمزيد من معلومات اتصال بنا   </legend>
+	<table>
+		<tr>
+			<td>رقم </td>
+			<td><input type="text" class="form-control" /></td>
+		</tr>
+		<tr>
+			<td>اسم </td>
+			<td><input type="text" class="form-control" /></td>
+		</tr>
+		<tr>
+			<td>اللقب </td>
+			<td><input type="text" class="form-control" /></td>
+		</tr>
+		<tr>
+			<td>جنسية</td>
+			<td><input type="radio" name="a" /> رجل</td>
+			<td><input type="radio" name="a" /> بنت</td>
+		</tr>
+		<tr>
+			<td>مدينة</td>
+			<td>
+                <select class="form-select">
+                    <option></option>
+                    <option selected="">اختار مدينة</option>
+                    <option>القيروان </option>
+                    <option>كاف</option>
+                    <option>سوسة</option>
+                    <option>تونس </option>
+                    <option>توزر </option>
+                </select>
+            </td>
+		</tr>
+		<tr>
+			<td>عمر</td>
+			<td><input type="range" min="9" max="40" class="form-range" /></td>
+		</tr>
+		<tr>
+			<td></td>
+			<td>
+                <button type="reset" class="btn btn-danger">الغاء</button>
+				<button type="submit" class="btn btn-success">اضافة</button>
+            </td>
+		</tr>
+	</table>
+	</fieldset>
+</form>
+</body>
+</html>

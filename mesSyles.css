@@ -1,0 +1,44 @@
+﻿header{
+	background-color: #11abf33f;
+}
+
+nav {
+	background-color: #d9f0f5;
+	width: 30%;
+	height: 500px;
+	float: left;
+}
+section {
+	background-color: #eafafa;
+	width: 70%;
+	height: 500px;
+	float: left;
+}
+iframe {
+      width: 830px;
+      height: 500px;
+      border: 1px solid #ccc;
+     
+    }
+
+}
+.src{
+width:800px;
+	height: 500px;
+
+	
+}
+h1 {
+    animation: slideIn 2s ease-out;
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
